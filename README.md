@@ -21,6 +21,22 @@ Most scripts in this repository perform administrative actions on the local devi
 * **Execution Policy:** Ensure your PowerShell execution policy allows for script execution (e.g., `RemoteSigned` or `Bypass` for the specific process).
 
 ### Usage
+
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-org/device-management.git](https://github.com/your-org/device-management.git)
+   ```
+2. Navigate to the relevant script.
+3. Review the specific header or README for that tool before deployment.
+
+## Roadmap
+Future additions to this repository will include:
+* Device compliance reporting tools.
+* Policy conflict analyzers.
+* Bulk action utilities.
+
+## Disclaimer
+These tools are provided "as-is" for troubleshooting and management purposes. **Always test** in a non-production environment before deploying to end-user devices.
+
+## License
+Licensed under GPL-3.0. See [LICENSE](LICENSE) for full details.
